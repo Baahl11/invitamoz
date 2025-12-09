@@ -78,27 +78,6 @@ function displayGuestInfo(guest) {
 }
 
 // ============================================
-// INVITACIÓN GENÉRICA (sin código)
-// ============================================
-function showGenericInvitation() {
-    const guestNameElement = document.getElementById('guest-name');
-    if (guestNameElement) {
-        guestNameElement.textContent = 'Estimado invitado';
-    }
-    
-    const passesElement = document.getElementById('guest-passes');
-    if (passesElement) {
-        passesElement.textContent = 'Por favor contacta al organizador para confirmar tu asistencia';
-    }
-    
-    // Ocultar formulario si no hay código válido
-    const form = document.getElementById('confirmation-form');
-    if (form) {
-        form.style.display = 'none';
-    }
-}
-
-// ============================================
 // FORMULARIO DE CONFIRMACIÓN
 // ============================================
 function setupConfirmationForm(guest) {
