@@ -1,0 +1,816 @@
+.adminContainer {
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+}
+.adminContainer-custom {
+	clear: both;
+	margin: 0 auto;
+	max-width: 1600px;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.titleSeparator {
+	color: #e10098;
+	font-family: 'robotoRegular';
+	font-size: 24px;
+	font-style: normal;
+	margin: 10px 0;
+}
+.adminTabsContainer {
+	background: #f3f3f3;
+	-moz-box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+			 box-shadow: 0px 3px 7px 0 rgba(0,0,0,0.2);
+	clear: both;
+	margin: 75px 0;
+	padding: 20px 100px;
+}
+.adminTabsContainer .leftHeader {
+	float: left;
+}
+.adminTabsContainer .leftHeader h2 {
+	text-transform: uppercase;
+}
+.adminTabsContainer .leftHeader p {
+	margin-top: 9px;
+}
+.adminTabsContainer .rightHeader {
+	float: right;
+	margin-bottom: 5px;
+}
+.adminTabsContainer .nav-tabs {
+	clear: both;
+}
+.adminTabsContainer .nav-tabs li {
+	background: #d8d9d8;
+	border: 1px solid #fff;
+	position: relative;
+	text-align: center;
+	width: 33.3%;
+}
+.adminTabsContainer .nav-tabs li a {
+	color: #73787a;
+	font-size: 19px;
+	text-align: center;
+}
+.adminTabsContainer .nav-tabs li a span {
+	color: #000;
+}
+.adminTabsContainer .nav-tabs li a:hover {
+	background: #d8d9d8;
+	color: #73787a;
+}
+.adminTabsContainer .nav-tabs li a:focus {
+	outline: none;
+}
+.adminTabsContainer .nav-tabs li.active {
+	background: #fff;
+}
+.adminTabsContainer .nav-tabs li.active a:hover {
+	background: #fff;
+}
+.adminTabsContainer .nav-tabs li .activeNotification {
+	color: #fff;
+	background: #f00;
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+	font-size: 13px;
+	height: 23px;
+	padding-top: 3px;
+	position: absolute;
+	text-align: center;
+	top: 5px;
+	right: 50px;
+	width: 23px;
+}
+.adminTabsContainer .nav-tabs li .activeNotification-registered {
+	right: 105px;
+}
+.adminTabsContainer .nav-tabs li .activeNotification-personal {
+	right: 100px;
+}
+.adminTabsContainer .tab-content {
+	background: #fff;
+	padding: 25px 0 30px;
+}
+.adminTabsContainer .tab-content .tab-pane {
+	padding: 0 30px;
+}
+
+/*8800*/
+.adminTabsContainer .tab-content .tab-pane#personal {
+	padding: 0;
+}
+.adminTabsContainer .tab-content .tab-pane#personal .categoryTag{
+	margin-left: 0;
+}
+.tablePersonalShopping .imgInner img {
+	display: block;
+	margin: 0 auto;
+}
+.tablePersonalShopping .imgInner {
+	width: 10%;
+}
+.tablePersonalShopping .articleInner {
+	width: 20%;
+}
+.tablePersonalShopping .priceInner, .tablePersonalShopping .quantityInner {
+	width: 10%;
+}
+.tablePersonalShopping .detailInner, .tablePersonalShopping .iconInner{
+	width: 15%;
+}
+.invitedListSearch .input-group-btn .buttonSearch {
+	background: white;
+}
+/******/
+
+
+.gifListMultisite ul li {
+	display: inline-block;
+	height: 34px;
+	margin-left: 4px;
+	margin-top: 5px;
+	vertical-align: top;
+	width: 34px;
+}
+.gifListMultisite ul li:first-of-type {
+	margin-left: 0;
+}
+.gifListMultisite ul li a {
+	cursor: pointer;
+}
+.adminSummary {
+	height: 170px;
+	margin: 45px 5% 40px 100px;
+}
+.adminSummary .adminInfo {
+	float: left;
+}
+.adminSummary .adminInfo .adminImage {
+	display: inline-block;
+	vertical-align: middle;
+	width: 170px;
+}
+.adminSummary .adminInfo .adminImage img {
+	border-radius: 100%;
+	height: 167px!important;
+	width: 168px!important;
+	object-fit: cover;
+}
+.adminSummary .adminInfo .adminData {
+	display: inline-block;
+	margin-left: 23px;
+	vertical-align: middle;
+}
+.adminSummary .adminInfo .adminData > a span {
+	border-bottom: 1px solid #e10098;
+	color: #e10098;
+	display: inline-block;
+	font-size: 13px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+.adminSummary .adminInfo .adminData > a img {
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: bottom;
+	width: 21px;
+}
+.adminSummary .adminInfo .adminData h2 {
+	color: #666;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+.adminSummary .adminInfo .adminData h2 span {
+	color: #e10098;
+}
+.adminSummary .adminInfo .adminData h2 i {
+	cursor: pointer;
+}
+.adminSummary .adminInfo .adminData .eventDate,
+.adminSummary .adminInfo .adminData .eventID {
+	color: #81898b;
+	display: block;
+	font-family: 'robotoCondensed';
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 23px;
+}
+.adminSummary .adminInfo .adminData .eventID {
+	font-weight: normal;
+	margin: 5px 0 10px 0;
+}
+.adminSummary .eventBlock {
+	float: right;
+	width: 280px;
+}
+.adminSummary .eventBlock .daysLeft {
+	border-bottom: 2px solid #d8d8d8;
+	color: #666;
+	font-size: 18px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.adminSummary .eventBlock .daysLeft span {
+	color: #000;
+}
+.adminSummary .eventBlock .daysLeft.congratulations {
+	font-family: 'robotoCondensed';
+	padding-bottom: 10px;
+}
+.adminSummary .eventBlock .daysLeft.congratulations div {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+}
+.adminSummary .eventBlock .daysLeft.congratulations div:last-of-type {
+	width: 200px;
+}
+.adminSummary .eventBlock .daysLeft.congratulations div i {
+	font-size: 50px;
+}
+.adminSummary .eventBlock .daysLeft.congratulations div p {
+	font-size: 17px;
+	padding-left: 10px;
+	text-align: left;
+}
+.adminSummary .eventBlock .daysLeft.congratulations div p span {
+	display: block;
+	font-size: 20px;
+}
+.adminSummary .eventBlock .eventButtons button {
+	height: 40px;
+}
+.adminSummary .eventBlock .eventButtons .dropdown {
+	margin-bottom: 10px;
+}
+.adminSummary .eventBlock .eventButtons .dropdown-menu {
+	border: 1px solid #e10098;
+	-moz-border-radius: 0;
+			 border-radius: 0;
+	-moz-box-shadow: none;
+			 box-shadow: none;
+	padding: 0;
+	top: 100%;
+	width: 280px;
+}
+.adminSummary .eventBlock .eventButtons .dropdown-menu li {
+	border-bottom: none !important;
+	padding: 3px 10px 3px 15px;
+	position: relative;
+}
+.adminSummary .eventBlock .eventButtons .dropdown-menu li:hover {
+	background: none;
+}
+.adminSummary .eventBlock .eventButtons .dropdown-menu li a {
+	color: #5c5c5c;
+	padding: 0;
+}
+.adminSummary .eventBlock .eventButtons .dropdown-menu li a:hover {
+	background: none;
+	border: 1px solid transparent
+}
+.adminSummary .eventBlock .eventButtons .dropdown-menu li a i {
+	font-size: 9px;
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 5px;
+}
+.giftMenuLine {
+	border: none;
+	border-bottom: 1px solid #dedede;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.giftMenu {
+	height: 80px;
+}
+.giftMenu > a {
+	vertical-align: top;
+}
+.giftMenu ul {
+	margin-left: 2%;
+	width: 82%;
+}
+.giftMenu ul li {
+	font-size: 14px;
+	margin-left: 2%;
+	padding-top: 32px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif !important;
+}
+.giftMenu ul li:first-of-type {
+	margin-left: 0;
+}
+.giftMenu .giftNotifications {
+	margin-top: 10px;
+	position: relative;
+	width: 1.8%;
+}
+@media screen and (min-width: 1500px) {
+	.giftMenu .giftNotifications {
+		margin-left: -3%;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.giftMenu .giftNotifications {
+		margin-left: -0.8%;
+	}
+}
+.giftMenu .giftNotifications img {
+	width: 100%;
+}
+.giftMenu .giftNotifications .notificationCount {
+	background: #ee4d8c;
+	-moz-border-radius: 50%;
+			 border-radius: 50%;
+	color: #fff;
+	font-size: 12px;
+	height: 20px;
+	position: absolute;
+	right: -7px;
+	top: -3px;
+	width: 20px;
+}
+.giftMenu .giftNotifications .notificationCount span {
+	display: block;
+	left: 50%;
+	margin: -8px 0 0 -3px;
+	position: absolute;
+	top: 50%;
+}
+.giftMenu .giftNotifications,
+.giftMenu .mainLogo,
+.giftMenu ul,
+.giftMenu ul li {
+	display: inline-block;
+	vertical-align: middle;
+}
+.giftMenu > a {
+	display: inline-block;
+	width: 14%;
+}
+.giftMenu > a .mainLogo {
+	padding-top: 30px;
+	width: 100%;
+}
+.mainBanner {
+	-moz-background-size: cover;
+			 background-size: cover;
+	height: 276px;
+	margin-bottom: 50px;
+	margin-top: 14px;
+	position: relative;
+	width: 100%;
+}
+.mainBanner .adminContainer {
+	background: rgba(0,0,0,0.3);
+}
+.mainBanner .mainBannerContent {
+	padding: 10px 20px;
+	text-align: center;
+	padding: 109px 0 109px 0;
+	overflow: hidden;
+	width: 513px;
+	margin: 0 auto;
+}
+.mainBanner .mainBannerContent .icon {
+	float: left;
+	padding: 0 12px 0 0;
+}
+.mainBanner .mainBannerContent .icon i {
+	font-size: 56px;
+	color: #fff;
+}
+.mainBanner .mainBannerContent .description {
+	text-align: left;
+	float: left;
+}
+.mainBanner .mainBannerContent .description p {
+	margin: 0;
+}
+.mainBanner .mainBannerContent h1 {
+	color: #fff;
+	font-size: 33px;
+	font-weight: 900;
+	margin: 0;
+}
+.mainBanner .mainBannerContent p {
+	color: #fff;
+	font-size: 15px;
+	margin-top: 10px;
+}
+.mainBanner .mainBannerContent.suspendedEvent {
+	background: rgba(0,0,0,0.6);
+	margin-right: 0;
+	width: 600px;
+	height: 100%;
+}
+.mainBanner .mainBannerContent.suspendedEvent > div {
+	display: inline-block;
+	vertical-align: top;
+	width: 70px;
+}
+.mainBanner .mainBannerContent.suspendedEvent > div:last-of-type {
+	width: 480px;
+}
+.mainBanner .mainBannerContent.suspendedEvent i {
+	color: #fff;
+	font-size: 60px;
+	margin: 0 auto;
+}
+.mainBanner .mainBannerContent.suspendedEvent p {
+	margin: 0;
+}
+.mainBanner .mainBannerContent.suspendedEvent h1 {
+	font-size: 30px;
+}
+.recomendationList {
+	padding: 0 100px 30px;
+	margin-bottom: 50px;
+}
+.recomendationList h3 {
+	text-transform: uppercase;
+}
+.recomendationList .owl-carousel {
+	float: none;
+	padding: 50px 0 0;
+	position: relative;
+	margin: 0 auto;
+	width: 85%;
+}
+.recomendationList .owl-carousel .item a:hover,
+.recomendationList .owl-carousel .item a:focus {
+	text-decoration: none;
+}
+.recomendationList .owl-carousel .item h4 {
+	color: #666;
+	font-size: 14px;
+	line-height: 1.2;
+	margin: 15px 0 19px 0;
+}
+.recomendationList .owl-carousel .item .disscountPrice {
+	color: #666;
+	font-size: 12px;
+	text-decoration: line-through;
+}
+.recomendationList .owl-carousel .item .price {
+	color: #f00;
+	font-size: 14px;
+}
+.recomendationList .owl-carousel .owl-dots {
+	left: -80px;
+	position: absolute;
+	top: 0;
+}
+.recomendationList .owl-carousel .owl-dots .owl-dot span {
+	background: #eb8ec8;
+}
+.recomendationList .owl-carousel .owl-dots .active span {
+	background: #e10098;
+}
+.recomendationList .owl-carousel .owl-nav {
+	position: absolute;
+	top: 45%;
+	width: 100%;
+}
+.recomendationList .owl-carousel .owl-nav .owl-prev,
+.recomendationList .owl-carousel .owl-nav .owl-next {
+	background: #fff;
+	color: #666;
+	left: -100px;
+	position: absolute;
+	right: auto;
+}
+.recomendationList .owl-carousel .owl-nav .owl-prev i,
+.recomendationList .owl-carousel .owl-nav .owl-next i {
+	font-size: 25px;
+}
+.recomendationList .owl-carousel .owl-nav .owl-next {
+	left: auto;
+	right: -100px;
+}
+#adminModal {
+	text-align: center;
+	padding: 0 !important;
+}
+#adminModal:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+#adminModal h4 {
+	color: #080808;
+	font-size: 19.9px;
+}
+#adminModal .close {
+  background: #787879;
+  height: 23px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  opacity: 1;
+  width: 23px;
+  color: #fff;
+  font-weight: normal;
+}
+#adminModal .close span {
+	color: #fff;
+	font-weight: normal;
+}
+#adminModal .modal-body {
+	padding-left: 23px;
+	padding-right: 23px;
+}
+#adminModal .modal-dialog {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 500px;
+}
+#adminModal .modal-header {
+	border-bottom: none;
+	padding: 15px 23px 0;
+}
+#adminModal .modalMultisite p {
+	color: #565656;
+	font-size: 13px;
+	/* line-height: 15.7px; */
+	padding-top: 0;
+}
+#adminModal .modalMultisite ul {
+	margin: 32px 0 36px;
+	padding: 0;
+	text-align: center;
+}
+#adminModal .modalMultisite ul li {
+	display: inline-block;
+	margin-right: 16px;
+	vertical-align: top;
+}
+#adminModal .modalMultisite ul li:last-of-type {
+	margin-right: 0;
+}
+#adminModal .modalMultisite ul li a {
+	display: block;
+	cursor: pointer;
+}
+#adminModal .modalMultisite ul li a img {
+	height: 60px;
+	width: 60px;
+}
+#adminModal .modalMultisite #modalTip {
+	border: 1px dashed #b3b3b3;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+#adminModal .modalMultisite #modalTip p {
+	font-size: 13px;
+	color: #666;
+	margin: 0;
+}
+#adminModal .modalMultisite #modalTip p span {
+	color: #3b3b3e;
+}
+.maxEvent {
+	margin-bottom: 200px;
+	margin-top: 80px;
+	text-align: center;
+}
+.maxEvent h1 {
+	font-family: 'robotoCondensed';
+	font-size: 24px;
+	margin: 15px 0;
+}
+.maxEvent h2 {
+	font-size: 15px;
+	margin: 5px 0;
+}
+.maxEvent .cSelect {
+	border: 1px solid #333;
+	margin: 40px auto 0;
+	width: 25%;
+}
+.maxEvent .cSelect select {
+	border-bottom: 1px solid #333;
+}
+.maxEvent .cSelect i {
+	font-size: 10px !important;
+}
+.specialDisabled {
+	color: #e799c2 !important;
+	border: 1px solid #e799c2 !important;
+	cursor: auto;
+}
+.activeOption {
+  border-bottom: 2px solid #e10098;
+  padding-bottom: 2px;
+  /* cursor: initial; */
+}
+@media screen and (min-width: 1400px) {
+	.giftMenu > a {
+		padding-left: 20px;
+	}
+	.giftMenu ul {
+		width: 82%;
+	}
+	.giftMenu ul li {
+		margin-left: 2.8%;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.giftMenu ul {
+		margin-left: 2%;
+		width: 75%;
+	}
+	.giftNotifications {
+		margin-left: 2.8%;
+	}
+}
+@media (min-width: 768px) {
+	.adminTabsContainer {
+		padding: 20px;
+	}
+}
+.buttonSearch {
+	/* BalRam - changes made to fix height 38px to 40px*/
+	height: 40px;
+}
+div#modalDelete .modal-header button {
+		background: gray;
+		border-radius: 50%;
+		padding: 2px 4px;
+		font-weight: normal;
+		font-size: 12px;
+		position:absolute;
+		color: white;
+		right: 10px;
+		top: 10px;
+		opacity: 1;
+}
+div#modalDelete .modal-header {
+		border: none;
+		height: 15px;
+		padding: 0;
+}
+div#modalDelete .modal-footer {
+		border: none;
+		padding-top: 0
+}
+div#modalDelete .modal-body {
+		padding-bottom: 0;
+		padding-top: 20px
+}
+div#modalDelete .modal-content {
+	border-radius: 0px;
+}
+i.icon-datos_de_mi_evento {
+	color: #e10098;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+@media (min-width: 768px) {
+	.modal-sm {
+		width: 430px;
+	}
+}
+
+/* Integracion voz del cliente*/
+.container_button_vozcliente {
+  position: fixed;
+  bottom: 30%;
+  right: -70px;
+  z-index: 2;
+  transform: rotate(90deg);
+  animation-name: containerButton;
+  animation-delay: 10s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: containerButton;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes containerButton {
+  from {
+    right: -70px;
+  }
+  to {
+    right: -5px;
+  }
+}
+
+.button_vozcliente {
+  display: flex;
+  text-decoration: none;
+  background: #E10098;
+  border: none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.container-image{
+  width: 30px;
+  height: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_vozcliente{
+  transform: rotate(-90deg);
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+  padding:0px;
+}
+
+.animation_text_vozcliente {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:135px;
+  animation-name: vozcliente_text;
+  animation-delay: 10s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  -webkit-animation-name: vozcliente_text;
+  -webkit-animation-delay: 10s;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+
+@keyframes vozcliente_text {
+  from {width: 135px;}
+  to {width: 0px;}
+}
+
+.text_vozcliente {
+  color: #fff;
+  font-size:17px;
+  text-align: center;
+  font-family: 'robotobold';
+  padding:0px;
+  margin-left:5px;
+  margin-right:5px;
+  width:130px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+  
+@media only screen and (min-width:480px) and (max-width: 991px) {
+	.container_button_vozcliente {
+		bottom: 50%;
+		left:auto;
+	}
+}
+
+/* FAQ */
+.fontTitleStyleFAQ{
+  font-family: 'robotoMedium';
+  font-size: 20px;
+  font-weight: 500;}
+.fontStyleFAQ{
+	font-size: 18px;
+	font-weight: 400;}
+.containerStyleFAQ{
+	margin: 20px 10px;
+	padding: 1rem 1.25rem;
+	background: rgb(255, 255, 255);}
+.headerStyleFAQ{
+	display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid rgba(235, 235, 235, 1);
+  align-items: flex-end;}
+.boxStyleFAQ{
+	border-radius: 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px;}
+.btnStyleFAQ{
+	position: relative;
+	text-align: left;
+	width: 100%;
+	padding: 1em 0;
+	border: none;
+	background: none;
+	outline: none;
+	display: flex;
+	justify-content: space-between;
+  align-items: center;}
+article button.active span{ rotate:-180deg; }
+article span{ transition: 0.3s; }
+article button~div{
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s ease;
+}

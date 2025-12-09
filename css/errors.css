@@ -1,0 +1,94 @@
+label.invalid,
+label.error,
+span.error {
+  color: #f00;
+  font-weight: 200;
+}
+input.invalid,
+input.error,
+select.error {
+  border: 1px solid #f00 !important;
+  color: #333;
+  font-weight: normal !important;
+}
+select.error {
+  /* As we are not using this, it making label red. so comenting it out. */
+  /* color: #f00; */
+}
+select.error ~ i {
+  border-top: 1px solid #f00;
+  border-right: 1px solid #f00;
+  border-bottom: 1px solid #f00;
+}
+.error {
+  color: #f00;
+  font-size: 10px;
+}
+.addressList#multiple .addressAsigned > div.visible .cSelect.errorSelect {
+  border: 1px solid #f00;
+}
+.addressList#multiple .addressAsigned > div.visible .cSelect.errorSelect select {
+  border-bottom: 1px solid #f00;
+}
+#initialBudgetModal .toAssign .form-control.error {
+  border: 1px solid #f00;
+}
+#productModal .selectCustomer .error,
+#experienceModal .selectCustomer .error {
+  color: #f00;
+  display: block;
+  font-size: 11px;
+  line-height: 1.1;
+}
+/* Error message on forms */
+form input.error {
+  border: 1px solid #f00;
+  color: #333;
+}
+form .materialStyle +.error,
+form .radio +.error,
+form .cSelect +.error {
+  font-size: 12px;
+  font-weight: bold;
+  bottom: 0;
+  color: #f00 !important;
+  margin: 5px 0 5px 5px;
+  position: absolute;
+}
+form .radio +.error {
+  bottom: auto;
+}
+#giftRegistry .formBlock .error,
+#giftRegistryEvent .formBlock .error {
+  font-size: 12px;
+  font-weight: bold;
+  bottom: -22px;
+}
+#giftRegistry select.error,
+#giftRegistryEvent select.error {
+  border: 1px solid #f00;
+  font-size: 15px;
+}
+#multiple .addressAsigned .errorNoSelect,
+#one .addressAsigned .errorNoSelect {
+  color: #f00;
+  display: none;
+  font-size: 11px;
+  margin: -15px 0 0 0;
+}
+/** MATERIAL INPUT ERROR **/
+.materialStyle.input-group.error {
+  color: inherit;
+}
+.materialStyle.input-group.error span {
+  border: 1px solid #f00;
+  border-right: none;
+}
+.materialStyle.input-group.error input {
+  border: 1px solid #f00;
+  border-left: none;
+}
+.materialStyle.input-group.error + p small {
+  color: #f00;
+  width: 80%;
+}

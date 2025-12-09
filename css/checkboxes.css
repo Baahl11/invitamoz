@@ -1,0 +1,172 @@
+.size-Smallest {
+  height: 40px;
+  width: 100px;
+}
+.size-Smallest .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Smallest .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Small {
+  height: 35px;
+  width: 135px;
+}
+.size-Small .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Small .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Medium {
+  height: 40px;
+  width: 180px;
+}
+.size-Medium .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Medium .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-Large {
+  height: 50px;
+  width: 200px;
+}
+.size-Large .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Large .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-ExtraLarge {
+  height: 50px;
+  width: 280px;
+}
+.size-ExtraLarge .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Big {
+  height: 50px;
+  width: 330px;
+}
+.size-Big .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Big .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.checkbox {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkbox label span,
+.checkbox label small {
+  display: block;
+}
+.checkbox label {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding-left: 5px;
+  color: #3b3b3e;
+  font-size: 15px;
+  font-family: robotoRegular;
+  line-height: 1;
+  cursor: pointer;
+}
+.checkbox label::before,
+.checkbox label::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  margin-left: -20px;
+}
+.checkbox label::before {
+  width: 15px;
+  height: 15px;
+  left: 0;
+  border: 1px solid #000;
+  background-color: #fff;
+  -moz-transition: border 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out;
+}
+.checkbox label::after {
+  width: 9px;
+  height: 9px;
+  left: 3px;
+  top: 3px;
+  background-color: #000;
+  -moz-transform: scale(0, 0);
+       transform: scale(0, 0);
+  -moz-transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+  transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+.checkbox input[type="checkbox"]:focus + label::before {
+  outline: 0;
+  outline-offset: 0px;
+}
+.checkbox input[type="checkbox"]:checked + label::after {
+  -moz-transform: scale(1, 1);
+       transform: scale(1, 1);
+}
+.checkbox input[type="checkbox"]:disabled {
+  cursor: not-allowed;
+}
+.checkbox input[type="checkbox"]:disabled + label {
+  opacity: 0.5;
+  cursor: default;
+}
+.checkbox input[type="checkbox"]:disabled + label::before {
+  cursor: not-allowed;
+}
+.checkbox.checkbox-inline {
+  margin-top: 0;
+}

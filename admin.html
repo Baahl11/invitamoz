@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Confirmaciones Boda</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+        
+        .stat-card h3 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card p {
+            opacity: 0.9;
+            font-size: 1em;
+        }
+        
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+        }
+        
+        .btn-success {
+            background: #48bb78;
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background: #38a169;
+        }
+        
+        input[type="text"] {
+            padding: 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1em;
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+        }
+        
+        thead {
+            background: #f7fafc;
+        }
+        
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #4a5568;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        td {
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        tr:hover {
+            background: #f7fafc;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+        
+        .badge-success {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+        
+        .badge-warning {
+            background: #fef5e7;
+            color: #975a16;
+        }
+        
+        .badge-danger {
+            background: #fed7d7;
+            color: #742a2a;
+        }
+        
+        .copy-btn {
+            background: #edf2f7;
+            color: #4a5568;
+            padding: 5px 10px;
+            font-size: 0.85em;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .copy-btn:hover {
+            background: #e2e8f0;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #718096;
+        }
+        
+        .error {
+            background: #fed7d7;
+            color: #742a2a;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Panel de Confirmaciones</h1>
+        <p style="color: #718096; margin-bottom: 20px;">Boda Memo y Fabi - Bautizo Isabella</p>
+        
+        <div class="stats" id="stats">
+            <!-- Stats se llenan con JS -->
+        </div>
+        
+        <div class="controls">
+            <input type="text" id="search" placeholder="🔍 Buscar por nombre...">
+            <button class="btn-primary" onclick="refreshData()">🔄 Actualizar</button>
+            <button class="btn-success" onclick="exportToCSV()">📊 Exportar Excel</button>
+        </div>
+        
+        <div id="error-message" style="display: none;" class="error"></div>
+        
+        <div id="loading" class="loading">Cargando invitados...</div>
+        
+        <table id="guests-table" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Pases</th>
+                    <th>Estado</th>
+                    <th>Asistirán</th>
+                    <th>Mensaje</th>
+                    <th>Confirmó</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody id="guests-tbody">
+            </tbody>
+        </table>
+    </div>
+    
+    <script>
+        // CONFIGURACIÓN DE SUPABASE
+        const SUPABASE_URL = 'https://wtpxsxeyaejeaofabnyj.supabase.co';
+        const SUPABASE_KEY = 'sb_publishable_ZBEKmRjR5MZtF3vmDhn95w_RxyctyqQ';
+        const SITE_URL = 'https://tu-boda.vercel.app'; // ⚠️ ACTUALIZAR después de deploy
+        
+        const { createClient } = supabase;
+        const supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY);
+        
+        let allGuests = [];
+        
+        // ============================================
+        // CARGAR DATOS
+        // ============================================
+        async function loadGuests() {
+            try {
+                document.getElementById('loading').style.display = 'block';
+                document.getElementById('guests-table').style.display = 'none';
+                document.getElementById('error-message').style.display = 'none';
+                
+                const { data, error } = await supabaseClient
+                    .from('guests')
+                    .select('*')
+                    .order('name');
+                
+                if (error) throw error;
+                
+                allGuests = data;
+                displayGuests(data);
+                updateStats(data);
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('guests-table').style.display = 'table';
+                
+            } catch (err) {
+                console.error('Error:', err);
+                showError('Error al cargar los datos: ' + err.message);
+            }
+        }
+        
+        // ============================================
+        // MOSTRAR INVITADOS
+        // ============================================
+        function displayGuests(guests) {
+            const tbody = document.getElementById('guests-tbody');
+            tbody.innerHTML = '';
+            
+            guests.forEach(guest => {
+                const tr = document.createElement('tr');
+                
+                const status = guest.confirmed 
+                    ? (guest.attending > 0 ? 'Confirmado' : 'No asiste')
+                    : 'Pendiente';
+                
+                const statusBadge = guest.confirmed
+                    ? (guest.attending > 0 
+                        ? '<span class="badge badge-success">✅ Confirmado</span>'
+                        : '<span class="badge badge-danger">❌ No asiste</span>')
+                    : '<span class="badge badge-warning">⏳ Pendiente</span>';
+                
+                const confirmedDate = guest.confirmed_at 
+                    ? new Date(guest.confirmed_at).toLocaleDateString('es-MX')
+                    : '-';
+                
+                const guestLink = `${SITE_URL}?guest=${guest.guest_code}`;
+                
+                tr.innerHTML = `
+                    <td><strong>${guest.name}</strong></td>
+                    <td>${guest.passes}</td>
+                    <td>${statusBadge}</td>
+                    <td><strong>${guest.attending || 0}</strong></td>
+                    <td>${guest.message || '-'}</td>
+                    <td>${confirmedDate}</td>
+                    <td>
+                        <button class="copy-btn" onclick="copyLink('${guestLink}')">
+                            📋 Copiar
+                        </button>
+                    </td>
+                `;
+                
+                tbody.appendChild(tr);
+            });
+        }
+        
+        // ============================================
+        // ESTADÍSTICAS
+        // ============================================
+        function updateStats(guests) {
+            const total = guests.length;
+            const confirmed = guests.filter(g => g.confirmed && g.attending > 0).length;
+            const notAttending = guests.filter(g => g.confirmed && g.attending === 0).length;
+            const pending = guests.filter(g => !g.confirmed).length;
+            const totalAttending = guests.reduce((sum, g) => sum + (g.attending || 0), 0);
+            
+            document.getElementById('stats').innerHTML = `
+                <div class="stat-card">
+                    <h3>${total}</h3>
+                    <p>Total Invitados</p>
+                </div>
+                <div class="stat-card">
+                    <h3>${confirmed}</h3>
+                    <p>✅ Confirmados</p>
+                </div>
+                <div class="stat-card">
+                    <h3>${totalAttending}</h3>
+                    <p>👥 Total Asistentes</p>
+                </div>
+                <div class="stat-card">
+                    <h3>${pending}</h3>
+                    <p>⏳ Pendientes</p>
+                </div>
+            `;
+        }
+        
+        // ============================================
+        // BÚSQUEDA
+        // ============================================
+        document.getElementById('search').addEventListener('input', (e) => {
+            const search = e.target.value.toLowerCase();
+            const filtered = allGuests.filter(g => 
+                g.name.toLowerCase().includes(search) ||
+                g.guest_code.toLowerCase().includes(search)
+            );
+            displayGuests(filtered);
+        });
+        
+        // ============================================
+        // COPIAR LINK
+        // ============================================
+        function copyLink(link) {
+            navigator.clipboard.writeText(link).then(() => {
+                alert('✅ Link copiado al portapapeles');
+            });
+        }
+        
+        // ============================================
+        // REFRESCAR
+        // ============================================
+        function refreshData() {
+            loadGuests();
+        }
+        
+        // ============================================
+        // EXPORTAR A CSV/EXCEL
+        // ============================================
+        function exportToCSV() {
+            const csv = [
+                ['Nombre', 'Pases', 'Confirmado', 'Asistirán', 'Mensaje', 'Fecha Confirmación'].join(','),
+                ...allGuests.map(g => [
+                    g.name,
+                    g.passes,
+                    g.confirmed ? 'Sí' : 'No',
+                    g.attending || 0,
+                    g.message || '',
+                    g.confirmed_at || ''
+                ].join(','))
+            ].join('\n');
+            
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `confirmaciones-${new Date().toISOString().split('T')[0]}.csv`;
+            a.click();
+        }
+        
+        // ============================================
+        // ERROR
+        // ============================================
+        function showError(message) {
+            const errorDiv = document.getElementById('error-message');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+        }
+        
+        // ============================================
+        // INICIALIZAR
+        // ============================================
+        loadGuests();
+        
+        // Auto-refresh cada 30 segundos
+        setInterval(loadGuests, 30000);
+    </script>
+</body>
+</html>

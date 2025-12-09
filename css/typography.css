@@ -1,0 +1,607 @@
+/* Duplicate in buttons.css
+.size-Smallest {
+  height: 40px;
+  width: 100px;
+}
+.size-Smallest .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Smallest .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Small {
+  height: 35px;
+  width: 135px;
+}
+.size-Small .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Small .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Medium {
+  height: 40px;
+  width: 180px;
+}
+.size-Medium .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Medium .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-Large {
+  height: 50px;
+  width: 200px;
+}
+.size-Large .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Large .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-ExtraLarge {
+  height: 50px;
+  width: 280px;
+}
+.size-ExtraLarge .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Big {
+  height: 50px;
+  width: 330px;
+}
+.size-Big .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Big .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}*/
+/* Moved to fonts.css
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?dwckbj");
+  src: url("fonts/icomoon.eot?dwckbj#iefix") format('embedded-opentype'), url("fonts/icomoon.ttf?dwckbj") format('truetype'), url("fonts/icomoon.woff?dwckbj") format('woff'), url("fonts/icomoon.svg?dwckbj#prueba-mesa-font-01") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
+[class^="icon-"],
+[class*=" icon-"] {
+/* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+/* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-invitados_nina:before {
+  content: "\e000";
+}
+.icon-invitados_bebe_hombre:before {
+  content: "\e001";
+}
+.icon-invitados_nino:before {
+  content: "\e002";
+}
+.icon-invitados_sin_info:before {
+  content: "\e003";
+}
+.icon-pantalla_completa:before {
+  content: "\e004";
+}
+.icon-flecha_header_izquierda:before {
+  content: "\e005";
+}
+.icon-descarga:before {
+  content: "\e006";
+}
+.icon-imprimir:before {
+  content: "\e007";
+}
+.icon-compartir:before {
+  content: "\e008";
+}
+.icon-correo:before {
+  content: "\e009";
+}
+.icon-zoom:before {
+  content: "\e00a";
+}
+.icon-flecha_gruesa_derecha:before {
+  content: "\e00b";
+}
+.icon-flecha_gruesa_izq:before {
+  content: "\e00c";
+}
+.icon-flecha_gruesa_arriba:before {
+  content: "\e00d";
+}
+.icon-flecha_gruesa_abajo:before {
+  content: "\e00e";
+}
+.icon-flecha_lightsvg_derecha:before {
+  content: "\e00f";
+}
+.icon-flecha_light_izq:before {
+  content: "\e010";
+}
+.icon-flechas_doble_derecha:before {
+  content: "\e011";
+}
+.icon-flechas_doble_izquierda:before {
+  content: "\e012";
+}
+.icon-ayuda:before {
+  content: "\e013";
+}
+.icon-radio_button_select:before {
+  content: "\e014";
+}
+.icon-radio_button_no_select:before {
+  content: "\e01b";
+}
+.icon-cerrar:before {
+  content: "\e016";
+}
+.icon-estrella_solida:before {
+  content: "\e017";
+}
+.icon-estrella_linea:before {
+  content: "\e018";
+}
+.icon-social-facebook:before {
+  content: "\e019";
+}
+.icon-social-google:before {
+  content: "\e01a";
+}
+.icon-social-instagram:before {
+  content: "\e91b";
+}
+.icon-social-pinterest:before {
+  content: "\e01c";
+}
+.icon-social-snapchat:before {
+  content: "\e01d";
+}
+.icon-social-twitter:before {
+  content: "\e01e";
+}
+.icon-lista_de_tareas_cerrar:before {
+  content: "\e01f";
+}
+.icon-camara:before {
+  content: "\e020";
+}
+.icon-regalo:before {
+  content: "\e021";
+}
+.icon-flecha_filtros_arriba:before {
+  content: "\e022";
+}
+.icon-flecha_filtros_abajo:before {
+  content: "\e023";
+}
+.icon-notificaciones:before {
+  content: "\e024";
+}
+.icon-tarjeta:before {
+  content: "\e025";
+}
+.icon-tache:before {
+  content: "\e026";
+}
+.icon-editar:before {
+  content: "\e027";
+}
+.icon-check:before {
+  content: "\e028";
+}
+.icon-tache2:before {
+  content: "\e029";
+}
+.icon-menu_mobile:before {
+  content: "\e02a";
+}
+.icon-iconos-perfil:before {
+  content: "\e02b";
+}
+.icon-reticula_cuatro:before {
+  content: "\e02c";
+}
+.icon-reticula_doce:before {
+  content: "\e02d";
+}
+.icon-avatar_boda:before {
+  content: "\e02e";
+}
+.icon-avatar_uno:before {
+  content: "\e02f";
+}
+.icon-basura:before {
+  content: "\e030";
+}
+.icon-calendario1:before {
+  content: "\e031";
+}
+.icon-calendario2:before {
+  content: "\e032";
+}
+.icon-flecha_invitado:before {
+  content: "\e033";
+}
+.icon-estado_de_mensaje:before {
+  content: "\e034";
+}
+.icon-estado_de_mensaje_aprobado:before {
+  content: "\e035";
+}
+.icon-ojo_visualizacion:before {
+  content: "\e036";
+}
+.icon-mobile:before {
+  content: "\e037";
+}
+.icon-desktop:before {
+  content: "\e038";
+}
+.icon-datos_de_mi_evento:before {
+  content: "\e039";
+}
+.icon-diseno:before {
+  content: "\e03a";
+}
+.icon-secciones:before {
+  content: "\e03b";
+}
+.icon-logo_liver:before {
+  content: "\e03c";
+}
+.icon-candado:before {
+  content: "\e03d";
+}
+.icon-corazon_linea:before {
+  content: "\e03e";
+}
+.icon-corazon_relleno:before {
+  content: "\e03f";
+}
+.icon-menu_puntos:before {
+  content: "\e040";
+}
+.icon-destacar:before {
+  content: "\e041";
+}
+.icon-sin_destacar:before {
+  content: "\e042";
+}
+.icon-estrella_negativo:before {
+  content: "\e043";
+}
+.icon-invitados_bebe:before {
+  content: "\e044";
+}
+.icon-invitados_hombre:before {
+  content: "\e045";
+}
+.icon-invitados_mujer:before {
+  content: "\e046";
+}
+.icon-reloj:before {
+  content: "\e047";
+}
+.icon-mas:before {
+  content: "\e048";
+}
+.icon-menos:before {
+  content: "\e049";
+}
+.icon-agregar:before {
+  content: "\e04a";
+}
+.icon-insertar_vinculo:before {
+  content: "\e04b";
+}
+.icon-listas:before {
+  content: "\e04c";
+}
+.icon-mi_cuenta:before {
+  content: "\e04d";
+}
+.icon-bandera_bebe:before {
+  content: "\e04e";
+}
+.icon-bandera_boda:before {
+  content: "\e04f";
+}
+.icon-bandera_regalo_electronico:before {
+  content: "\e050";
+}
+.icon-bandera_regalo_fisico:before {
+  content: "\e051";
+}
+.icon-importar:before {
+  content: "\e052";
+}
+.icon-flecha_light_arriba:before {
+  content: "\e053";
+}
+.icon-flecha_light_abajo:before {
+  content: "\e054";
+}
+.icon-alerta_amarilla:before {
+  content: "\e055";
+}
+.icon-caret_down:before {
+  content: "\e056";
+}
+.icon-caret_up:before {
+  content: "\e057";
+}
+.icon-caret_right:before {
+  content: "\e058";
+}
+.icon-caret_left:before {
+  content: "\e059";
+}
+.icon-bolsita:before {
+  content: "\e05a";
+}
+.icon-leido:before {
+  content: "\e05b";
+}
+.icon-imagen_experiencia:before {
+  content: "\e05c";
+}
+.icon-play_video:before {
+  content: "\e05d";
+}
+.icon-social-excel:before {
+  content: "\e05e";
+}
+.icon-social-gmail:before {
+  content: "\e05f";
+}
+.icon-social-outlook:before {
+  content: "\e060";
+}
+.icon-social-yahoo:before {
+  content: "\e061";
+}
+.icon-social-whatsapp:before {
+  content: "\e062";
+}
+.arrowLeft {
+  -moz-transform: rotate(90deg);
+       transform: rotate(90deg);
+}
+.arrowRight {
+  -moz-transform: rotate(-90deg);
+       transform: rotate(-90deg);
+}
+.titleSection {
+  color: #3b3b3e;
+  font-family: 'robotoCondensed';
+  font-size: 28px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.subtitleSection {
+  color: #3b3b3e;
+  font-family: 'robotoCondensed';
+  font-size: 24px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.titleModule {
+  color: #3b3b3e;
+  font-family: 'robotoCondensed';
+  font-size: 20px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.subtitleModule {
+  color: #3b3b3e;
+  font-family: 'robotoRegular';
+  font-size: 15px;
+  font-style: bold;
+  margin: 10px 0;
+}
+.mainText {
+  color: #3b3b3e;
+  font-family: 'robotoRegular';
+  font-size: 15px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.mainTextSecond {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 15px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.mainTextSecond--custom {
+  margin: 10px 0 10px 10px !important;
+}
+.informativeText {
+  color: #3b3b3e;
+  font-family: 'robotoRegular';
+  font-size: 14px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.informativeTextSecond {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 14px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.descriptiveText {
+  color: #3b3b3e;
+  font-family: 'robotoRegular';
+  font-size: 13px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.descriptiveTextSecond {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 13px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.descriptiveTextThird {
+  color: #3b3b3e;
+  font-family: 'robotoRegular';
+  font-size: 12px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.requiredFields {
+  color: #f00;
+  font-family: 'robotoRegular';
+  font-size: 12px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.primaryColorLink {
+  color: #e10098;
+  cursor: pointer;
+  display: block;
+  font-family: 'robotoRegular';
+  font-size: 15px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.darkColorLink {
+  color: #3b3b3e;
+  cursor: pointer;
+  display: block;
+  font-family: 'robotoRegular';
+  font-size: 14px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.darkColorLink:hover {
+  text-decoration: underline;
+}
+.copyright {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 12px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.tags {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 11px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.tabsText {
+  color: #81898c;
+  font-family: 'robotoRegular';
+  font-size: 20px;
+  font-style: bold;
+  margin: 10px 0;
+}
+.quantityAndGuest {
+  color: #3b3b3e;
+  font-family: 'robotoRegular';
+  font-size: 16px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.succesColorText {
+  color: #0abd3e;
+  font-family: 'robotoRegular';
+  font-size: 13px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.messageText {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 11px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.liverpoolCategory {
+  color: #666;
+  font-family: 'robotoRegular';
+  font-size: 12px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.liverpoolCategorySecond {
+  color: #000;
+  font-family: 'robotoRegular';
+  font-size: 12px;
+  font-style: normal;
+  margin: 10px 0;
+}
+.liverpoolCategorySecond--custom {
+  margin: 25px 0 0 10px;
+}
+.liverpoolCategorySecond--first {
+  margin: 35px 0 0 30px;
+}
+.liverpoolCategorySecond--second {
+  margin: 5px 0 0 30px;
+}
+.articleName {
+  color: #000;
+  font-family: 'robotoRegular';
+  font-size: 16px;
+  font-style: normal;
+  margin: 10px 0;
+}

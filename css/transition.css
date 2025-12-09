@@ -1,0 +1,110 @@
+
+/* [NS] crerate event css - start */
+@-webkit-keyframes slideFromRightCreateEvent {
+    from { left: 1400px; }
+    to { left: 0; }
+    /*0% { transform: translateX(100%); }
+	25% { transform: translateX(75%); }
+	50%{ transform: translateX(50%); }
+	75%{ transform: translateX(25%); }
+	100% { transform: translateX(0%); }*/
+}
+
+@keyframes slideFromRightCreateEvent {
+    from { left: 1400px }
+    to { left: 0; width: auto; }
+    /*0% { transform: translateX(100%); }
+	25% { transform: translateX(75%); }
+	50%{ transform: translateX(50%); }
+	75%{ transform: translateX(25%); }
+	100% { transform: translateX(0%); }*/
+
+}
+@-webkit-keyframes slideFromLeftCreateEvent {
+    from { left: -1400px; }
+    to { left: 0; }
+    /*0% { transform: translateX(-100%); }
+	25% { transform: translateX(-75%); }
+	50%{ transform: translateX(-50%); }
+	75%{ transform: translateX(-25%); }
+	100% { transform: translateX(0%); }*/
+}
+
+@keyframes slideFromLeftCreateEvent {
+    from { left: -1400px; }
+    to { left: 0; width: auto; }
+    /*0% { transform: translateX(-100%); }
+	25% { transform: translateX(-75%); }
+	50%{ transform: translateX(-50%); }
+	75%{ transform: translateX(-25%); }
+	100% { transform: translateX(0%); }*/
+
+}
+.createEventAnimationRight {
+    position: relative;
+    /*left: 100%;*/
+    -webkit-animation: slideFromRightCreateEvent 0.3s ease-in-out both;
+    animation: slideFromRightCreateEvent 0.3s ease-in-out both;
+    height: 100%;
+}
+.createEventAnimationLeft {
+    position: relative;
+    /*right: 100%;*/
+    -webkit-animation: slideFromRightCreateEvent 0.3s ease-in-out both;
+    animation: slideFromRightCreateEvent 0.3s ease-in-out both;
+    height: 100%;
+}
+@-webkit-keyframes slideDown {
+	0% { transform: translateY(100%); }
+	10%{ transform: translateY(90%); }
+	20%{ transform: translateY(80%); }
+	30%{ transform: translateY(70%); }
+	40%{ transform: translateY(60%); }
+	50%{ transform: translateY(50%); }
+	50%{ transform: translateY(50%); }
+	60%{ transform: translateY(40%); }
+	70%{ transform: translateY(30%); }
+	80%{ transform: translateY(20%); }
+	90%{ transform: translateY(10%); }
+	100% { transform: translateY(0%); }
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes slideDown {
+	0% { transform: translateY(100%); }
+	10%{ transform: translateY(90%); }
+	20%{ transform: translateY(80%); }
+	30%{ transform: translateY(70%); }
+	40%{ transform: translateY(60%); }
+	50%{ transform: translateY(50%); }
+	50%{ transform: translateY(50%); }
+	60%{ transform: translateY(40%); }
+	70%{ transform: translateY(30%); }
+	80%{ transform: translateY(20%); }
+	90%{ transform: translateY(10%); }
+	100% { transform: translateY(0%); }
+    from {opacity: 0}
+    to {opacity: 1}
+}
+.createEventAnimationTop {
+    -webkit-animation: slideDown 1s linear;
+    animation: slideDown 1s linear;
+    width: 100%;
+    background: #f7f3f0;
+}
+/* [NS] crerate event css - end */
+
+/* [NS] animation for rest of the site - start */
+@keyframes slideFromRight {
+    from { right: -1400px; opacity: 0; }
+    to { right: 0; left: 0; width: auto; opacity: 1; }
+
+}
+
+.containerAnimation {
+    position: relative;
+    -webkit-animation: slideFromRight 1s forwards;
+    animation: slideFromRight 2s forwards;
+    height: 100%;
+}
+/* [NS] animation for rest of the site - end */

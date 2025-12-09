@@ -1,0 +1,153 @@
+.size-Smallest {
+  height: 40px;
+  width: 100px;
+}
+.size-Smallest .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Smallest .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Small {
+  height: 35px;
+  width: 135px;
+}
+.size-Small .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Small .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Medium {
+  height: 40px;
+  width: 180px;
+}
+.size-Medium .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Medium .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-Large {
+  height: 50px;
+  width: 200px;
+}
+.size-Large .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Large .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-ExtraLarge {
+  height: 50px;
+  width: 280px;
+}
+.size-ExtraLarge .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Big {
+  height: 50px;
+  width: 330px;
+}
+.size-Big .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Big .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.defaultLink,
+.defaultAction,
+.principalLink,
+.darkLink,
+.mediumLink,
+.lightLink,
+.addEditLink,
+.deleteLink,
+.specialLink {
+  font-family: 'robotoCondensed';
+  font-size: 16px;
+  font-style: normal;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  padding-top: 10px;
+  margin: 5px 0;
+  text-align: center;
+}
+.defaultAction,
+.addEditLink,
+.deleteLink,
+.specialLink {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+}
+.principalLink {
+  background-color: #e10098;
+}
+.principalLink:hover {
+  background-color: #c81685;
+}
+.darkLink {
+  background-color: #3b3b3e;
+}
+.darkLink:hover {
+  background-color: #2f2f2f;
+}
+.mediumLink {
+  background-color: #666;
+}
+.lightLink {
+  background-color: #b3b3b3;
+}
+.deleteLink {
+  background-color: #f2f2f2;
+  border-color: #d8d8d8;
+}
+.specialLink {
+  color: #e10098;
+  border-color: #e10098;
+}

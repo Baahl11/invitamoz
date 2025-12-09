@@ -1,0 +1,166 @@
+.helpContainer {
+	float: right;
+}
+.phones {
+	display: inline-block;
+	line-height: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+	vertical-align: middle;
+	text-align: right;
+	font-family: 'robotoCondensed';
+	color: #666;
+}
+.iconHelpText {
+	font-weight: bold;
+}
+.displayInlineBlock {
+	display: inline-block;
+}
+.displayBlock {
+	display: block;
+}
+.textPink {
+	color: #e10098;
+}
+.fontSize-11 {
+	font-size: 11px;
+}
+.logoContainer {
+	float: left;
+	text-align: left;
+	width: 300px;
+	padding: 15px 0px;
+}
+.logo img {
+	width: 199px;
+	height: 25px;
+}
+.stepBarContainer {
+	text-align: right;
+}
+.giftRegistryHeader {
+	background: #fff;
+	width: 100%;
+}
+.wrapHeader {
+	margin: auto 0;
+	padding: 5px 25px 10px;
+	overflow: auto;
+	clear: both;
+	max-width: 1600px;
+	position: relative;
+	width: 100%;
+}
+.menu {
+	float: left;
+	height: 50px;
+	width: 50px;
+	background: #e10098;
+	padding: 10px;
+	display: none;
+}
+.steps {
+	float: right;
+	text-align: right;
+	width: 300px;
+}
+.stepBarGlobal {
+	background: #818b89;
+	display: inline-block;
+	height: 4px;
+	width: 68px;
+}
+.stepBarGlobal.active {
+	background: #e10098;
+}
+.stepContainer {
+	font-size: 18px;
+	margin-top: 3px;
+	text-align: right;
+}
+.currentCount {
+	color: #e10098;
+}
+.lastCount {
+	color: #b3b3b3;
+}
+@media screen and (max-width: 768px) {
+	.wrapHeader {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.logoContainer,
+	.steps {
+		text-align: center;
+		width: 100%;
+	}
+	.stepBarContainer,
+	.stepContainer {
+		margin: 0 auto;
+		width: 285px;
+	}
+	.logoContainer {
+		margin-top: 0;
+	}
+	.menu {
+		display: block;
+	}
+	.logo {
+		padding: 12px;
+	}
+	.logo img {
+		width: 133px;
+		height: 17px;
+	}
+}
+.tooltipHelp {
+	position: relative;
+	float: right;
+	right: 1%;
+}
+.tooltipHelp:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+.tooltiptext {
+	visibility: hidden;
+	width: 380px;
+	background-color: #fff;
+	color: #000;
+	text-align: left;
+	border: solid 1px #d8d8d8;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: 140%;
+	right: 0%;
+	-moz-box-shadow: 0px 2px 5px #888;
+			 box-shadow: 0px 2px 5px #888;
+}
+.tooltiptext:after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	background-color: #fff;
+	left: 95%;
+	top: -6px;
+	-moz-transform: rotate(-45deg);
+			 transform: rotate(-45deg);
+	width: 10px;
+	height: 10px;
+	border: solid 1px;
+	border-style: solid;
+	border-color: #d8d8d8 #d8d8d8 transparent transparent;
+}
+.selectEvent-h2--custom {
+	font-size: 25px;
+}
+.selectEvent-h3--custom {
+	font-size: 20px;
+}
+.selectEvent-p--custom,
+.selectEvent-ul--custom {
+	font-size: 12px;
+}

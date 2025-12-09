@@ -1,0 +1,401 @@
+body {
+    /* font-family: 'robotocondensedregular', arial, sans-serif; */
+}
+
+.padding-logo-mesa {
+    padding: 20px 15px 0px 0px;
+}
+
+.info {
+    margin-top: 45px;
+}
+
+.info h3 {
+    font-weight: bold;
+}
+
+.info p {
+    line-height: 10px;
+}
+
+.info .event {
+    font-size: 12px;
+    color: #666;
+    padding: 10px;
+}
+
+.info.contrato {
+    font-size: 10px;
+}
+
+.info.contrato p {
+    margin: 0px;
+}
+
+.info .num_mesa {
+    color: #666;
+    font-size: 18px;
+}
+
+.amper {
+    color: #e10098;
+}
+
+.label-liverpool-exclusive {
+    font-size: 11px;
+}
+
+.names {
+    color: #666;
+}
+
+.date_operation {
+    color: #666;
+}
+
+span.label {
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.Icon {
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.lamigos {
+    font-size: 10px;
+    color: #666;
+}
+
+
+/*estilos de tablas */
+
+.cuadricula {
+    background-image: url("../images/cuadricula.PNG");
+}
+
+.table-title {
+    background-color: #d8d8d8;
+    color: #000;
+    padding: 14px 0px 0px 15px;
+}
+
+.table-title span.pull-right {
+    padding-right: 15px;
+}
+
+
+/* font-weight bold,
+  h4,
+  padding-left 15px, */
+
+.title-mesa {
+    background-color: #d8d8d8;
+    color: #000;
+    font-weight: bold;
+    margin: 0px;
+    padding: 15px;
+}
+
+.monto-no-validado {
+    font-size: 10px;
+    color: #666;
+}
+
+.bodytable table {
+    width: 100%;
+}
+
+.bodytable table td {
+    border: solid 1px #d8d8d8;
+    padding: 10px;
+    text-align: right;
+}
+
+.bodytable label {
+    color: #999;
+    margin: 0px;
+}
+
+.bodytable p {
+    font-weight: bold;
+    margin: 0px 0px 25px 0px;
+}
+
+.bodytable .col-xs-6 {
+    padding: 20px 15px;
+}
+
+.border-right {
+    border-right: solid 1px #d8d8d8;
+}
+
+.border-left {
+    border-left: solid 1px #d8d8d8;
+}
+
+.border-bottom {
+    border-bottom: solid 1px #d8d8d8;
+}
+
+.bodytable.col-xs-12 {
+    border: solid 1px #d8d8d8;
+    padding: 0px;
+}
+
+.margin_top {
+    margin-top: 20px;
+}
+
+
+/* estilos de tabla listado de articulos*/
+
+.tableResults {
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.tableResults thead td {
+    padding: 5px 0px;
+}
+
+.tableResults tbody td {
+    padding: 10px 0;
+}
+
+.tableResults tbody tr {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.tableResults a {
+    color: #000;
+    font-size: 12.3px;
+    text-decoration: none;
+}
+
+.tableResults a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.tableResults img {
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 0;
+    width: 60px;
+}
+
+.tableResults div {
+    display: block;
+}
+
+.tableResults p {
+    font-size: 13px;
+    margin: 0;
+}
+
+.tableResults.tableInvitados {
+    border: solid 1px #d8d8d8;
+    text-align: left;
+}
+
+.tableResults.tableInvitados thead td {
+    padding: 15px;
+}
+
+.tableResults.tableInvitados tbody td {
+    padding: 15px;
+}
+
+.tableResults.tableInfoInvitados {
+    border: solid 1px #d8d8d8;
+    text-align: left;
+}
+
+.tableResults.tableInfoInvitados tbody td {
+    padding: 15px;
+    border: solid 1px #d8d8d8;
+    font-size: 10px;
+}
+
+.tableResults.tableInfoInvitados tbody td i {
+    font-size: 15px;
+}
+
+.bebidas {
+    width: 100%;
+}
+
+.bebidas td {
+    text-align: center;
+}
+
+.bebidas td b.num_bebida {
+    color: #f00;
+    font-size: 25px;
+}
+
+.tarea_content {
+    border: solid 1px #d8d8d8;
+    padding: 15px 0px 0px 15px;
+}
+
+.icon-tache2 {
+    color: #666;
+}
+
+.icon-check {
+    color: #008000;
+}
+
+.icon-reloj {
+    color: #ff0;
+}
+
+.icon-destacar {
+    color: #f00;
+}
+
+.icon-corazon_relleno {
+    color: #e10098;
+}
+
+.headMessage {
+    font-size: 12.3px;
+}
+
+.headResults {
+    padding: 0;
+}
+
+.headResults div {
+    padding: 0;
+}
+
+.rowLines {
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
+
+.imgInner {
+    text-align: left;
+}
+
+.numberResults {
+    text-align: right;
+}
+
+.resultsTitle {
+    font-size: 18px;
+    color: #666;
+    font-weight: bold;
+}
+
+.resultsTitle strong {
+    color: #000;
+}
+
+.div_star {
+    padding-top: 20px;
+}
+
+.sku {
+    font-weight: normal;
+}
+
+.disponible {
+    color: #008000;
+}
+
+.no_disponible {
+    color: #f00;
+}
+
+i.glyphicon.glyphicon-star {
+    color: #ff0 !important;
+}
+
+.label_categoria {
+    color: #666;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.label_categoria b {
+    color: #000;
+}
+
+.list_coop {
+    width: 100%;
+}
+
+.list_coop tbody td {
+    padding: 10px 30px;
+    border: none;
+    text-align: left;
+}
+
+.list_coop tbody tr {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+#divPrint {
+    white-space: pre-wrap;
+}
+
+
+/* Downoad pdf*/
+
+.downloadprint-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.printPage #divPrint::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+
+/* END Download pdf*/
+
+
+/* row pdfclass mesa logo */
+
+.row.pdfclass .pdf-mesalogo {
+    width: 250px;
+}
+
+
+/* CSS for PDF */
+
+.printPage {
+    font-size: 8pt;
+    page-break-after: always;
+    margin: 0;
+    padding: 30px 20px 20px 20px;
+    overflow: hidden;
+    width: 984px;
+    background-color: #fff;
+}
+
+.containerPadding {
+    padding-left: 0px;
+}
+
+.toPrint .mainContent span {
+    background: #f2e776;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 5px;
+}

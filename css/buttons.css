@@ -1,0 +1,279 @@
+.size-Smallest {
+  height: 40px;
+  width: 100px;
+}
+.size-Smallest .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Smallest .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Small {
+  height: 35px;
+  width: 135px;
+}
+.size-Small .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Small .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.size-Medium {
+  height: 40px;
+  width: 180px;
+}
+.size-Medium .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Medium .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-Large {
+  height: 50px;
+  width: 200px;
+}
+.size-Large .iconRight {
+  margin: 2px 10px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Large .iconLeft {
+  margin: 2px 0 0 10px;
+  float: left;
+  font-size: 13px;
+}
+.size-ExtraLarge {
+  height: 50px;
+  width: 280px;
+}
+.size-ExtraLarge .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-ExtraLarge .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Big {
+  height: 50px;
+  width: 330px;
+}
+.size-Big .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Big .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.size-Full {
+  height: 50px;
+  width: 100%;
+}
+.size-Full .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.size-Full .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.btnPrimary {
+  background-color: #e10098;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoCondensed;
+  border-radius: 4px;
+}
+.btnPrimary-custom {
+  padding: 15px 40px;
+  margin: 40px 0;
+}
+.btnPrimary-custom2 {
+  padding: 35px 0 5px 0;
+}
+.btnSecondary {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoCondensed;
+}
+.btnPrimarySpecial,
+.btnPrimarySpecialIcon {
+  background-color: transparent;
+  color: #e10098;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #e10098;
+  font-family: robotoCondensed;
+}
+.btnPrimarySpecialIcon {
+  font-family: robotoRegular;
+}
+.btnSecondarySpecial,
+.btnSecondarySpecialRegular {
+  background-color: transparent;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000;
+  font-family: robotoCondensed;
+}
+.btnSecondarySpecialRegular {
+  font-family: robotoRegular;
+}
+.btnDelete {
+  background-color: #f2f2f2;
+  color: #666;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d8d8d8;
+  font-family: robotoCondensed;
+}
+.btnPrimaryAction {
+  background-color: #3b3b3e;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoCondensed;
+}
+.btnSecondaryAction {
+  background-color: #81898c;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoCondensed;
+}
+.btnPrimaryAdd {
+  background-color: #f2f2f2;
+  color: #666;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoRegular;
+}
+.btnSecondaryAdd {
+  background-color: #fff;
+  color: #666;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #d8d8d8;
+  font-family: robotoRegular;
+}
+.btnDownload,
+.btnImport {
+  background-color: #81898c;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoCondensed;
+}
+.btnSpecialEdit {
+  background-color: #3b3b3e;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: robotoCondensed;
+}
+.btnPrimaryDisable {
+  background-color: #e799c2;
+  cursor: auto;
+}
+.btnActionDisable {
+  background-color: #d8d8d8;
+  color: #b3b3b3;
+  cursor: auto;
+}
+.btnPrimarySpecialDisable {
+  color: #e799c2;
+  border: 1px solid #e799c2;
+  cursor: auto;
+}
+.btnSecondarySpecialDisable {
+  color: #b3b3b3;
+  border: 1px solid #b3b3b3;
+  cursor: auto;
+}
+/* special buttons */
+.btnDownloadMedium {
+  height: 35px;
+  width: 165px;
+}
+.btnDownloadMedium .iconRight {
+  margin: 2px 20px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.btnDownloadMedium .iconLeft {
+  margin: 2px 0 0 20px;
+  float: left;
+  font-size: 13px;
+}
+.btnSpecialEditSmall {
+  font-size: 16px;
+}
+.btnSpecialEditSmall .iconRight {
+  margin: 2px 3px 3px 0;
+  float: right;
+  font-size: 16px;
+}
+.btnGiftSmall {
+  height: 30px;
+  width: 180px;
+}
+.btnGiftSmall .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.btnGiftSmall .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+.btnGiftModal {
+  font-size: 12px;
+  height: 30px;
+  width: 64px;
+}
+.btnGiftModal .iconRight {
+  margin: 2px 3px 0 0;
+  float: right;
+  font-size: 13px;
+}
+.btnGiftModal .iconLeft {
+  margin: 2px 0 0 3px;
+  float: left;
+  font-size: 13px;
+}
+/* added for import from excel */
+.btnDownloadMedium.inputfile-box .iconRight {
+  margin: 2px 20px 0 10px;
+}
+/*.mobileButton in main.css :637-727*/

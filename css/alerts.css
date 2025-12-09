@@ -1,0 +1,125 @@
+.alertSuccess {
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #39b54a;
+}
+.alertSuccess i {
+  padding: 5px;
+  background: #39b54a;
+  color: #fff;
+  float: left;
+}
+.alertSuccess p {
+  width: 83%;
+  text-align: left;
+  margin: 0;
+  color: #39b54a !important;
+  float: left;
+  padding: 3.5px 3.5px 3.5px 10px;
+}
+.alertSuccess a {
+  background: #39b54a;
+  color: #fff;
+  font-size: 4px;
+  padding: 5px;
+  -moz-border-radius: 100%;
+       border-radius: 100%;
+  float: right;
+}
+.alertWarning {
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #ffd457;
+}
+.alertWarning i {
+  padding: 5px;
+  background: #ffd457;
+  color: #fff;
+  float: left;
+}
+.alertWarning p {
+  width: 83%;
+  text-align: left;
+  margin: 0;
+  color: #ffd457;
+  float: left;
+  padding: 3.5px 3.5px 3.5px 10px;
+}
+.alertWarning a {
+  background: #ffd457;
+  color: #fff;
+  font-size: 4px;
+  padding: 5px;
+  -moz-border-radius: 100%;
+       border-radius: 100%;
+  float: right;
+}
+.alertError {
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #f00;
+}
+.alertError i {
+  padding: 5px;
+  background: #f00;
+  color: #fff;
+  float: left!important;
+}
+.alertError p {
+  width: 83%;
+  text-align: left;
+  margin: 0 !important;
+  color: #f00 !important;
+  float: left;
+  padding: 3.5px 3.5px 3.5px 10px;
+}
+.alertError a {
+  background: #f00;
+  color: #fff;
+  font-size: 7px;
+  padding: 5px;
+  -moz-border-radius: 100%;
+       border-radius: 100%;
+  float: right;
+  cursor: pointer;
+}
+.checkOutSuccess {
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+}
+.checkOutSuccess i {
+  font-weight: bold;
+  padding: 5px;
+  color: #39b54a;
+  float: left;
+}
+.checkOutSuccess p {
+  width: 83%;
+  text-align: left;
+  margin: 0;
+  color: #39b54a;
+  float: left;
+  padding: 3.5px 3.5px 3.5px 10px;
+}
+.checkOutWarning {
+  display: block;
+  padding: 10px;
+  overflow: hidden;
+}
+.checkOutWarning i {
+  padding: 5px;
+  color: #ffd457;
+  float: left;
+}
+.checkOutWarning p {
+  width: 83%;
+  text-align: left;
+  margin: 0;
+  color: #ffd457;
+  float: left;
+  padding: 3.5px 3.5px 3.5px 10px;
+}

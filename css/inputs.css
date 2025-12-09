@@ -1,0 +1,65 @@
+/* material design input */
+.materialStyle {
+  position: relative;
+  /* chang this to make keep some distnce between two input box. */
+  margin-bottom: 30px;
+}
+.materialStyle label i {
+  color: #f00;
+}
+.materialStyle span {
+  color: #f00;
+}
+input.inputMaterial {
+  border: 1px solid #d8d8d8;
+  font-size: 15px;
+  padding: 12px 0 0 5px;
+  display: block;
+  width: 100%;
+}
+input.inputMaterial:focus {
+  outline: none;
+}
+label.placeHolderMaterial {
+  color: #b3b3b3;
+  font-family: 'robotoRegular';
+  font-size: 15px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -moz-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+input.inputMaterial:focus ~ label.placeHolderMaterial,
+input.inputMaterial:valid ~ label.placeHolderMaterial {
+  top: 1px;
+  font-size: 10px;
+  color: #e10098;
+}
+input.inputMaterial:focus ~ label.placeHolderMaterial span,
+input.inputMaterial:valid ~ label.placeHolderMaterial span {
+  color: #e10098;
+}
+.quantityGroupGift {
+  margin-top: 0;
+  width: 100px;
+}
+.minus,
+.plus {
+  background: #fff;
+}
+.buttonSearch i {
+  font-size: 20px;
+}
+/*text area*/
+textarea.inputMaterial.gmpdirection {
+  padding: 15px;
+  height: 70px !important;
+}
+textarea.inputMaterial + label.placeHolderMaterial {
+  top: 0px;
+  font-size: 10px;
+  color: #e10098;
+}

@@ -1,0 +1,1673 @@
+/* external.css v1.8.9 */
+
+
+/* Common for Display: none/block/inline properties*/
+
+.display-none {
+    display: none !important;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.display-inline-block {
+    display: inline-block !important;
+}
+
+.display-hidden {
+    height: 0;
+    overflow: hidden;
+}
+
+.mb0 {
+    margin-bottom: 0 !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+.pt10 {
+    padding-top: 10px !important;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+img {
+    font-size: 10px;
+}
+
+
+/* END Common for Display: none/block/inline properties*/
+
+
+/* Neha Himthani - Adding CSS for E-Card Details Page */
+
+
+/* .oppeningContainer .celebratedGift .barcode {
+    margin-top: 24px;
+    margin-bottom: 10px;
+} */
+
+
+/* .oppeningContainer .celebratedGift .barcode {
+    border: 1px solid #808080;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0px !important;
+    margin: 26px auto 16px;
+    width: 230px;
+} */
+
+.tableReceivedGifts .modal {
+    display: none;
+}
+
+
+/* Gurusha - Fixes for GiftList Page */
+
+
+/*#tracingModal .modal-dialog {
+    width: 500px !important;
+}*/
+
+.eventIconMessageClass {
+    color: gray;
+}
+
+#tracingModal .modal-dialog .modal-content .modal-body p {
+    padding: 0 0 5px 0;
+    word-wrap: break-word;
+}
+
+#tracingModal .modal-dialog .modal-body .col-md-3.contentTracing {
+    margin-right: 0px;
+    width: 25% !important;
+}
+
+#tracingModal .modal-dialog .modal-body .col-md-2.contentTracing {
+    margin-right: 0px;
+    width: 16.66666667% !important;
+}
+
+#tracingModal .modal-dialog .modal-body .icon-caret_down {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+img.eventMessageImage {
+    width: 50px;
+}
+
+.star {
+    font-family: verdana;
+    font-size: 30px;
+    display: inline-block;
+    color: #ccc;
+}
+
+.star:before {
+    content: "\2605";
+}
+
+.starafter:after {
+    content: "\2605";
+}
+
+.star-yellow {
+    color: rgb(255, 187, 0);
+}
+
+.adminTabsContainer {
+    padding: 20px 15px;
+}
+
+
+/*.invitedListConfig button {
+    border: 1px solid #d8d8d8 !important;
+}*/
+
+.invitedListSearch .buttonSearch {
+    padding: 7px 12px !important;
+    height: 40px;
+}
+
+.customTextInput {
+    /* To match style of dropdown*/
+    width: 62%;
+    display: inline-block;
+    border: 1px solid #aaaaaa;
+    height: 25px;
+    color: #000;
+    padding: 5px;
+    font-size: 16.5px;
+}
+
+.modalPrint {
+    overflow: hidden !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+.giftListsuspendedBanner {
+    background: url("../../../../assetso/web/images/demoBanner.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+/* Kopal - Css for GiftRegistryListsite */
+
+.intoMesaLabel {
+    color: #e10098;
+    border: none;
+    background: transparent;
+}
+
+.icon-flecha_gruesa_izq {
+    border: none;
+    background: transparent;
+}
+
+#content {
+    display: block !important;
+}
+
+.giftMenuMobile .menu {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+/* .open {
+    display: block !important;
+} */
+
+
+/* Neha H - CSS for OpeningGift Page */
+
+.oppeningContainer .gift-purchase-pdp {
+    border: 1px solid #dbdbdb;
+    line-height: 0px;
+    padding: 0px 10px;
+    min-height: 60px;
+    overflow: auto;
+}
+
+.oppeningContainer p.mainText {
+    display: inline-block;
+}
+
+.oppeningContainer i.icon-flecha_gruesa_derecha {
+    float: right;
+    margin-top: 5%;
+}
+
+
+/*
+#containerMap.content {
+    height: 700px;
+} */
+
+
+/* akansksha : css for edit invitation page*/
+
+.center .editTextFigure {
+    position: absolute;
+    top: 0;
+    color: #fff;
+    padding: 5px 5px 5px 15px;
+    right: 0;
+    background: #e10098;
+}
+
+#shortUrl {
+    word-wrap: break-word;
+}
+
+.formBlock .iconHelp.inLine:hover .popover {
+    display: block;
+    left: 80px;
+    top: 35px;
+}
+
+.step3 .searchBlock .buttonSearch {
+    padding: 8px 15px;
+}
+
+.padtop20 {
+    padding-top: 20px;
+}
+
+.cSelect.selectionTabMoreCustomSelect {
+    height: 30px;
+    width: 55px;
+    margin-left: 45px;
+    margin-bottom: -27px;
+    padding: 0 2px;
+}
+
+.cSelect.selectionTabMoreCustomSelect select {
+    height: 25px;
+    padding-left: 10px;
+}
+
+.selectionTabMoreCustomTextInput.form-control {
+    height: 25px;
+    width: 55px;
+    margin-left: 45px;
+}
+
+
+/* select all dropdown fix  gift list registered page and guest list */
+
+
+/* selectAll btn-group */
+
+.selectAll.btn-group {
+    width: 200px;
+}
+
+.selectAll.btn-group .labelListDown-10 {
+    padding: 12px 0px 12px 10px;
+}
+
+.selectAll.btn-group .labelListDown-10 input#boxSquareAll+label {
+    width: 128px;
+    padding: 0;
+}
+
+.selectAll.btn-group .dropdown-toggle.btnBasicSlidedown {
+    border-radius: 0;
+    padding: 0 3px !important;
+    background-image: none;
+}
+
+.invitedListConfig>.selectAll .labelListDown-10 {
+    padding: 12px 10px;
+}
+
+.selectAll .labelListDown-10 input#boxSquareAll+label {
+    width: 130px;
+    padding: 0;
+}
+
+.selectAll .labelListDown-10 .dropdown-toggle.btnBasicSlidedown {
+    border-radius: 0;
+    padding: 0 3px !important;
+}
+
+.modeGiftInner.padtop20 .noBorder.cSelect,
+.text-center.addressInner.padtop20 .noBorder.cSelect {
+    padding-top: 20px;
+}
+
+.modeGiftInner.padtop20 .noBorder.cSelect select {
+    font-size: 12.5px;
+    color: #070707;
+    padding-left: 0;
+}
+
+.modeGiftInner.padtop20 .noBorder.cSelect .icon-caret_down {
+    color: #000;
+    margin-top: 19px;
+}
+
+.text-center.addressInner.padtop20 .noBorder.cSelect .icon-caret_down {
+    color: #000;
+    margin-top: 19px;
+    width: 20px;
+}
+
+.tableRegisteredGifts .on-hover .popover.fade.bottom {
+    top: 20px;
+}
+
+.tableRegisteredGifts .on-hover .popover.fade.bottom .arrow {
+    left: 50%;
+}
+
+#sharingModal #closeModal {
+    height: auto;
+}
+
+.invitedListIcons #sharingModal #closeModal i {
+    font-size: initial;
+    display: inline;
+}
+
+.invitedListIcons #sharingModal .btn-label {
+    padding: 5px 12px;
+}
+
+.invitedListIcons #sharingModal .btn-label i {
+    font-size: 20px;
+    margin-left: 0;
+}
+
+.invitedListGiftRegister #sharingModal button {
+    padding: 0 !important;
+}
+
+
+/* .cSelect.selectionTabMoreCustomSelect select {
+    height: 20px;
+} */
+
+.cSelect.selectionTabMoreCustomSelect>i {
+    width: 30px;
+    height: 21px;
+    padding: 8px 0;
+}
+
+.icon-editar {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+
+/* Moved to invitations.css
+.left .editTextFigure {
+    position: absolute;
+    top: 30px;
+    max-height: 42px;
+    color: #fff;
+    opacity: 0;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+    right: 20px;
+    background: #e10098;
+    cursor: pointer;
+}
+
+.left:hover .editTextFigure {
+    opacity:1;
+}
+.editTextFigure span {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}*/
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    /* display: inline-block; */
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.controlContainer a {
+    font-size: 18px;
+    height: 50px;
+    padding: 12px 0 0;
+    margin-bottom: 10px;
+}
+
+.controlContainer {
+    padding: 5px 20px 10px;
+}
+
+
+/* kaltura input type file */
+
+#createEvent .imageBlock .actionUpload input[type="file"] {
+    display: none;
+}
+
+
+/* kaltura-Image */
+
+#createEvent .imageBlock>div img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+
+/* TimePicker css */
+
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+    top: -7px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:before {
+    left: 6px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+    border-bottom: 6px solid #fff;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+    top: -6px;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu:after {
+    left: 7px;
+}
+
+.bootstrap-datetimepicker-widget table td,
+.bootstrap-datetimepicker-widget table td span {
+    height: 0;
+    line-height: 0;
+}
+
+
+/* home page login .popover */
+
+.homeSessionContainer {
+    position: relative;
+}
+
+.homeSessionContainerCreateAccount {
+    position: relative;
+    right: 95px;
+    bottom: -7px;
+}
+
+.rememberMeContent {
+    background-color: #fff;
+    width: 316px;
+    height: auto;
+    padding: 15px;
+    position: absolute;
+    border: 1px solid #d8d8d8;
+    z-index: 10;
+    right: 0;
+    bottom: 40px;
+    font-size: 12px;
+}
+
+.rememberMeContent p {
+    margin: 0;
+}
+
+.rememberMeContent p:nth-child(1) {
+    font-weight: bold;
+}
+
+.rememberMeContent:before {
+    content: "";
+    position: absolute;
+    top: -moz-calc(100% - 6px)/*i.e. half the height*/
+    ;
+    top: calc(100% - 6px)/*i.e. half the height*/
+    ;
+    right: 50px;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-bottom: inherit;
+    border-right: inherit;
+    -moz-box-shadow: inherit;
+    box-shadow: inherit;
+}
+
+.rememberMeContent i {
+    font-size: 6px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+    padding: 6px;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    float: right;
+}
+
+
+/* home page login modal button */
+
+.size-ExtraLarge.loginModal {
+    width: 100%;
+}
+
+
+/* added to hide the pointer in guest page (VI) */
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
+
+/*Dev infobar css*/
+
+.infoBar {
+    font-size: 6px;
+    font-variant: italics;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* OnHover Icons */
+
+.hover-icon {
+    cursor: pointer;
+}
+
+
+/* Default Icon */
+
+.hover-default {
+    cursor: default !important;
+}
+
+
+/* -------------Pagination--------------- */
+
+.controlPage {
+    display: inline-block;
+    float: right;
+}
+
+.controlPage .customPagination {
+    display: inline-block;
+    padding-left: 0;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.controlPage .customPagination li {
+    display: inline-block;
+}
+
+.controlPage .customPagination li a {
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    padding: 0px;
+    line-height: 1.42857143;
+}
+
+.controlPage .customPagination li .start i,
+.controlPage .customPagination li .back i,
+.controlPage .customPagination li .next i,
+.controlPage .customPagination li .end i {
+    font-size: 10px;
+}
+
+.controlPage .customPagination li .numPage {
+    padding: 0px 6px;
+}
+
+.controlPage .customPagination li .numPage i {
+    display: inline-block;
+    margin-top: -22px;
+    font-size: 12px !important;
+    font-style: normal;
+}
+
+
+/*End Pagination*/
+
+
+/* error css*/
+
+.formBlock {
+    position: relative;
+}
+
+.formBlock label.error,
+.formBlock div.error {
+    bottom: -22px !important;
+    position: absolute;
+}
+
+
+/* Search Cancel Button for viewGuestTemplate(step 3 of VIRTUAL INVITATION)*/
+
+.input-search-group {
+    border: 1px solid #ccc;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.input-search-group input,
+.input-search-group span {
+    border: 0;
+}
+
+.input-search-group .btn.btn-default.buttonSearch {
+    webkit-box-shadow: inset 0 0 0 rgba(255, 255, 255, .15), 0 0 0 rgba(0, 0, 0, .075);
+    box-shadow: inset 0 0 0 rgba(255, 255, 255, .15), 0 0 0 rgba(0, 0, 0, .075);
+}
+
+.cancel-search-btn {
+    cursor: pointer;
+    font-size: 20px;
+    right: 0px;
+    bottom: 9px;
+    opacity: 0;
+    display: table-cell;
+    z-index: 2;
+    position: relative;
+}
+
+
+/* gmail modal table  */
+
+#gmail-modal .cTable tr td {
+    display: inline-block;
+}
+
+#gmail-modal .cTable tr {
+    border: 1px solid #d6d6d6;
+}
+
+
+/* help icons position fix */
+
+#option1.row>.icon-ayuda.Tooltip {
+    position: absolute;
+    top: 43px;
+    left: 150px;
+}
+
+
+/*---------Account Transfererence And Closure---------*/
+
+
+/* AccountStatus */
+
+.adminData a div {
+    float: left;
+}
+
+
+/* AccountStatus it wil remove after css sequence change according to priroity */
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.closeClass {
+    background: #333 !important;
+    color: #fff;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin-top: 3px !important;
+}
+
+
+/* Partial Transfer */
+
+.mesaregaloslogo-partial-closure {
+    width: 95% !important;
+}
+
+.input-group-error-label {
+    color: #f00;
+    width: 80%;
+}
+
+.on-hover {
+    position: relative;
+}
+
+.on-hover:hover .popover.bottom {
+    display: block;
+}
+
+#option1.row>.on-hover {
+    position: relative;
+}
+
+#option1.row>.on-hover .iClass.icon-ayuda {
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    font-weight: bold;
+}
+
+#option1.row .on-hover:hover .popover.bottom {
+    display: block;
+}
+
+#option1.row .on-hover:hover .popover.bottom>.arrow {
+    left: 40%;
+}
+
+#option2 .row .on-hover:hover .popover.bottom {
+    display: block;
+}
+
+.stepTwoOption .textDisponibility .on-hover:hover .popover.bottom {
+    display: block;
+}
+
+.box-shadow-wrapper #myModalConfirmation button.close {
+    min-width: auto;
+}
+
+
+/* Closure */
+
+.closure-container {
+    padding: 20px !important;
+}
+
+.closingGiftPanel .closing-bottom-detail {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #d8d8d8;
+    padding-top: 10px;
+}
+
+.closingGiftPanel .closing-border-right {
+    border-right: 1px solid #d8d8d8;
+}
+
+.closingGiftPanel .closingGiftImg,
+#giftListOption2 .closingGiftImg {
+    width: 22px;
+}
+
+.closingGiftPanel .closingGiftConfirmationImg {
+    max-width: 80px;
+}
+
+
+/*END Account Transfererence And Closure*/
+
+
+/* help popover arrow after input box */
+
+.popover.bottom>.arrow {
+    left: 85%;
+}
+
+
+/* Added this to resolve Alias width and ToolTip of Help Icon */
+
+.inLine.input_help_icon {
+    width: 83%;
+}
+
+
+/* Added this generic css */
+
+.p-l-5 {
+    padding-left: 5px;
+}
+
+.p-l-10 {
+    padding-left: 10px!important;
+}
+
+.p-l-15 {
+    padding-left: 15px;
+}
+
+.p-l-20 {
+    padding-left: 20px !important;
+}
+
+.p-l-25 {
+    padding-left: 25px;
+}
+
+.p-l-40 {
+    padding-left: 40px !important;
+}
+
+.p-l-100 {
+    padding-left: 100px;
+}
+
+.m-l-5 {
+    margin-left: 5px;
+}
+
+.m-l-15 {
+    margin-left: 15px;
+}
+
+.m-l-25 {
+    margin-left: 25px;
+}
+
+.m-t-85 {
+    margin-top: 85px !important;
+}
+
+.m-t-25 {
+    margin-top: 25px !important;
+}
+
+.p-t-0 {
+    padding-top: 0px;
+}
+
+.p-b-0 {
+    padding-bottom: 0px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+
+.p-b-10 {
+    padding-bottom: 10px;
+}
+
+.pl-0 {
+    padding-left: 0;
+}
+
+.pr-0 {
+    padding-right: 0;
+}
+
+.p-r-5 {
+    padding-left: 5px;
+}
+
+.p-r-10 {
+    padding-left: 10px;
+}
+
+.p-r-15 {
+    padding-left: 15px;
+}
+
+.p-r-20 {
+    padding-left: 20px !important;
+}
+
+.p-r-25 {
+    padding-left: 25px;
+}
+
+.p-r-100 {
+    padding-left: 100px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+/* .printPage {
+    padding: 20px;
+} */
+
+.popover-arrow-left {
+    left: 15% !important;
+}
+
+.popover-arrow-right {
+    left: 85% !important;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+
+/* inLine input_help_icon error its no available in lp css */
+
+.inLine.input_help_icon .materialStyle+.error {
+    bottom: -2px !important;
+}
+
+.headers.formBlock .popover.bottom {
+    top: 23px;
+    right: -30px;
+}
+
+.headers.formBlock .helpIcon:hover .popover.bottom {
+    display: block;
+}
+
+.subtitleModule.titleForm .iconHelp.inLine .popover.bottom {
+    left: -85px;
+    top: 25px;
+}
+
+.subtitleModule.titleForm .icon-ayuda:hover .popover.bottom {
+    display: block;
+}
+
+.excel-import {
+    position: relative;
+    padding-top: 80px;
+}
+
+.inputfile-box {
+    padding: 6px;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    color: white;
+    display: inline-block;
+}
+
+
+/* Adding this css for Home page event type images. */
+
+div.image-section {
+    position: relative;
+}
+
+div.image-section div.text-section {
+    display: none;
+    color: #FFF;
+}
+
+div.image-section:hover div.text-section {
+    display: inline;
+}
+
+div.image-section div.text-section .text-msg {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+div.image-section div.text-section .text-link {
+    position: absolute;
+    top: 90%;
+    right: 5%;
+}
+
+div.image-section img.category-icon-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 150px;
+    margin-top: -75px;
+    margin-left: -100px;
+}
+
+div.image-section:hover img.category-icon-img {
+    top: 45%;
+}
+
+
+/* Contract button css for font */
+
+.contractWrapper .buttonBlock .btnSecondaryAction {
+    font-size: 18px;
+}
+
+.contractWrapper .buttonBlock .btnPrimary {
+    font-size: 18px;
+}
+
+.showPopOver {
+    display: block!important;
+}
+
+
+/* in datos de mi event event name section css for spacing */
+
+.eventNameBlock {
+    color: #020202;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+
+
+/* for datos de mi event padding is not working thats why overwritting it */
+
+.addAdministrator {
+    display: inline-block;
+    margin-left: 305px;
+    margin-bottom: -86px;
+    margin-top: -35px;
+}
+
+.cseletOveride {
+    width: 100%!important;
+    height: 41px!important;
+}
+
+
+/* Breadcrumb CSS */
+
+.giftBreadcrumbs {
+    padding-left: 0px;
+}
+
+
+/* For Gift List Profile Image */
+
+.adminSummary .adminInfo .adminImage img {
+    border-radius: 100%;
+    height: 167px;
+    width: 168px;
+    object-fit: cover;
+}
+
+
+/* For giftList favourite icon */
+
+.tableRegisteredGifts .favouriteGift.on-hover .popover.fade.bottom {
+    top: 56px;
+    left: -30px;
+}
+
+.tableRegisteredGifts .textToLeft.articleInner .textToBold {
+    width: 215px;
+}
+
+
+/* barcode css */
+
+.oppeningContainer .celebratedGift .barcode {
+    border: 1px solid #808080;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0!important;
+    font-size: 1.4em;
+    font-family: "robotoCondensed";
+    margin: 29px auto 16px!important;
+    width: 230px;
+}
+
+
+/*Event Management Save/ Close Buttons*/
+
+#giftDeliveryAddress p {
+    font-size: 13px;
+    display: inline-block !important;
+    margin-right: 20px !important;
+}
+
+#giftDeliveryAddress .cSelect {
+    width: 45%;
+    margin-bottom: 0px;
+}
+
+#giftDeliveryAddress .cSelect select {
+    margin-bottom: 0px;
+}
+
+#giftDeliveryAddress .radio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#button.buttonBlock.toHide {
+    margin-top: 20px;
+}
+
+#button.btnSecondaryAction {
+    margin-right: 4px;
+}
+
+#giftDeliveryAddress .popover {
+    top: 94px !important;
+    left: 50px !important;
+}
+
+
+/* Add address in event management */
+
+.myEventContainer .editEventAddress .formBlock .materialStyle {
+    margin-bottom: 20px;
+}
+
+.myEventContainer .editEventAddress .formBlock .cSelect {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+/* Import File Css on Guest List */
+
+.inputfile-box input[type="file"] {
+    display: none;
+}
+
+
+/* agregar button*/
+
+.agregar_administrator {
+    position: relative;
+    left: 19%;
+    padding: 10px;
+    width: 198px;
+}
+
+@media screen and (max-width: 3000px) {
+    .agregar_administrator {
+        left: 22%;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .agregar_administrator {
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .agregar_administrator {
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 1483px) {
+    .agregar_administrator {
+        left: 51%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .agregar_administrator {
+        left: 49%;
+    }
+}
+
+.icon_font {
+    margin-right: 5px;
+}
+
+
+/* Calender error css */
+
+.calenderError {
+    border: 1px solid #f00 !important;
+}
+
+
+/*space on Add/Edit group Modal*/
+
+#newGroup .close {
+    height: 0px;
+}
+
+#editGroup .close {
+    margin-top: 0px;
+}
+
+#editGroup .col-md-6 #closeModal.btnSecondaryAction.size-Full {
+    margin-top: 0px;
+}
+
+#editGroup .col-md-6 .btnPrimaryAction.size-Full {
+    margin-top: 0px;
+}
+
+
+/*Datos de mi evento page, modal popup in eliminar button*/
+
+.row.myEventAdminInfo .modal.fade.centerModal.in {
+    top: 25%;
+}
+
+.row.myEventAdminInfo .centerModal .modal-content {
+    width: 50%;
+    margin: auto;
+}
+
+.modal-dialog .modal-content .modal-body p {
+    /* padding affecting all modal  */
+    /* padding: 0 15px 15px 0; */
+    word-wrap: break-word;
+}
+
+
+/* Imran: iconNotifications count center*/
+
+.giftNotifications #iconNotifications .notificationCount {
+    text-align: center;
+}
+
+.giftNotifications #iconNotifications .notificationCount font {
+    line-height: 22px;
+}
+
+
+/* GRHeader Don't put any css after this css, update before it.*/
+
+.adminContainer .giftMenu ul {
+    padding-left: 0px;
+    width: 80%;
+}
+
+#predeter-con-pop .col-xs-4.buttons {
+    border-left: 1px solid #ccc;
+    padding-top: 15%;
+}
+
+#predeter-con-pop .title {
+    border-bottom: none;
+}
+
+.anchor-disabled {
+    pointer-events: none;
+}
+
+.col-sm-4.select_pos {
+    width: 35.333333%;
+}
+
+.predetermine_top {
+    margin-top: 0px;
+}
+
+i.iconRight.icon-flecha_lightsvg_derecha.icon_pos_three {
+    margin-right: 134px;
+}
+
+
+/* use original css only */
+
+
+/* .size-Full {
+    padding:2px !important;
+} */
+
+.prodAccountUrl {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* border of event admin start*/
+
+.admincontainer_line {
+    border-bottom: 1px solid lightgray;
+}
+
+.myEventAdminInfo.myevent_border>div {
+    border-bottom: none;
+}
+
+.activeURL {
+    pointer-events: none;
+}
+
+
+/*border of event admin end */
+
+@media screen and (max-width: 1399px) {
+    .adminContainer .giftMenu {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .adminContainer .giftMenu {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .giftMenu .giftNotifications {
+        margin-left: -5% !important;
+    }
+}
+
+
+/* Add again link in recibidos section giftList */
+
+.tableReceivedGifts .articleInner {
+    position: relative;
+}
+
+
+/* For Messgae pop-up in GiftList  */
+
+#messageModal .modal-dialog .modal-content .modal-body p {
+    padding: 0;
+    word-wrap: break-word;
+}
+
+#messageModal .modal-dialog .modal-content .modal-body .materialStyle {
+    margin-bottom: 20px;
+}
+
+
+/* for error box fix */
+
+#receivedSection .articleInner .alertError p {
+    width: 80%;
+}
+
+.tableReceivedGifts .articleInner .alertError p {
+    width: 80%;
+}
+
+.all-options-dropdown {
+    min-width: auto!important;
+    width: 200px!important;
+    border: 1px solid #d8d8d8!important;
+    left: -1px;
+    border-radius: 0;
+}
+
+.msg-successfully {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 2px 3px #ccc;
+    top: 30px;
+    padding: 5px;
+    position: absolute;
+    width: auto;
+}
+
+.msg-dismiss {
+    margin-left: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    width: 20px;
+    background: #ccc;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* for Datos De Mi Evento image hovering */
+
+.changePermission .checkbox {
+    display: inline-block;
+}
+
+.listContainer .productContent .salePrice {
+    margin-top: -30px !important;
+}
+
+.icon-right-one-drech {
+    margin-right: 125px !important;
+}
+
+.btn-size-full-one {
+    width: 281px;
+    margin-bottom: 2px;
+}
+
+
+/* set disable input color */
+
+input:disabled {
+    color: #b3b3b3;
+}
+
+input:disabled+label span {
+    color: #999;
+}
+
+
+/* set input:disabled placeHolder position */
+
+input:disabled+label.placeHolderMaterial {
+    font-size: 10px;
+    top: 1px;
+}
+
+
+/* set input:read-only placeHolder position */
+
+.materialStyle>input:read-only {
+    padding-left: 14px;
+}
+
+
+
+.materialStyle input.inputMaterial:read-only:focus~label.placeHolderMaterial span {
+    color: #f00!important;
+}
+
+.giftPA .selectDayList {
+    padding: 0;
+}
+
+#loading {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.7;
+    background-color: #fff;
+    z-index: 999;
+    text-align: center;
+}
+
+#loading-image {
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+
+/*Stick Footer*/
+
+.container-fluid {
+    min-height: calc(100vh - 451px);
+}
+
+
+/* createNewAccount */
+
+#createNewAccount .input-group.date .calendar-input .formBlock {
+    padding-left: 0;
+}
+
+.invitacion-margin {
+    margin-bottom: 20px;
+}
+
+
+/* Gift List Guest View Pop-up Warning Component */
+
+#productModal .alertError {
+    margin: 20px 0 30px;
+    padding: 3px;
+    position: relative;
+}
+
+#productModal .alertError p {
+    line-height: 1;
+}
+
+.barcode-content img {
+    height: 70px;
+}
+
+
+/* DatosDeMiEvento Editar  */
+
+.editAdminInfo .checkbox input[type="checkbox"] {
+    width: 20px;
+}
+
+.editAdminInfo .checkbox .img-responsive.editOwnerWap {
+    display: inline-block;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.editAdminInfo .checkbox .popover.bottom {
+    top: 20px;
+}
+
+
+/* virtual invitation myInvite title */
+
+.mainContainer.shadowBox {
+    position: relative;
+    /* margin-top: 60px; */
+}
+
+
+/*.myInvTitleWeb{
+    position: absolute;
+    top: -40px;
+    right: 44%;
+    padding: 10px;
+    text-transform: lo;
+    display: block;
+    font-weight: bold;
+    bottom: 30%;
+    font-size: 20px;
+}*/
+
+
+/* imagelink icon-datos_de_mi_evento styling */
+
+.icon-datos_de_mi_evento {
+    color: #e10098;
+    font-size: 21px;
+    font-weight: bold;
+    padding-right: 5px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+}
+
+
+/* Invitation Image resizing */
+
+.invitacionImg {
+    width: 60px;
+}
+
+
+/* for disabling the increment and decrement in Table Org */
+
+.disbaleDiv {
+    background-color: lightgray!important;
+    pointer-events: none;
+}
+
+#dataEventMessage {
+    word-wrap: break-word;
+}
+
+.popover-content ul {
+    padding: 0;
+}
+
+
+/* Tools Landing Page for anonymous user */
+
+h2.subtitleSection.divider {
+    position: relative;
+    border-bottom: 0 !important;
+}
+
+
+/* Breadcrumb css START */
+
+#breadCrumbMainContainer {
+    height: auto;
+}
+
+
+/* Breadcrumb css END */
+
+h2.subtitleSection.divider::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: #d2d2d2;
+    width: 60%;
+    height: 1px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0px;
+}
+
+.centeraligned {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mainText.greyBox {
+    color: #838383;
+}
+
+.newMessageIcon {
+    color: #666;
+    font-family: robotoCondensed;
+}
+
+.eventCongratulationsMessage {
+    color: #000;
+    font-family: robotoCondensed;
+}
+
+
+/* DeleteBtn for guestlist */
+
+.deleteCancelarBtn {
+    background-color: #969696;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+#cancelButton {
+    background: #969696;
+}

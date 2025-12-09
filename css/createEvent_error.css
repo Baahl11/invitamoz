@@ -1,0 +1,19 @@
+/* set error msg position */
+/* .formBlock .error {
+    bottom: -22px !important;
+} */
+
+/* set disable input color */
+/* input:disabled {
+    color: #b3b3b3;
+}
+
+set input:disabled placeHolder position
+input:disabled+label.placeHolderMaterial {
+    font-size: 10px;
+    top: 1px;    
+}
+
+input:disabled+label span {
+    color: #999;
+} */
